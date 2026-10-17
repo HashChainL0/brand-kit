@@ -1,0 +1,18 @@
+{
+  "name": "Hash Chain",
+  "colors": {
+    "logoDark": { "hex": "#2c2c2d", "usage": "Logo square, dark panels" },
+    "accent": { "hex": "#ff6a13", "usage": "Highlights, links on dark, large display accents" },
+    "accentOnLight": { "hex": "#c2410c", "usage": "Accent text and links on light backgrounds" },
+    "ink": { "hex": "#11131a", "usage": "Primary text on light, page background on dark" },
+    "surface": { "hex": "#f4f5f7", "usage": "Light page and card background" }
+  },
+  "fonts": {
+    "display": { "family": "Bricolage Grotesque", "fallback": "Inter, system-ui, sans-serif" },
+    "mono": { "family": "JetBrains Mono", "fallback": "ui-monospace, monospace" }
+  },
+  "logo": {
+    "minimumWidthPx": 24,
+    "clearSpace": "one quarter of the logo width on every side"
+  }
+}
