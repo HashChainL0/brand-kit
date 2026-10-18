@@ -8,7 +8,7 @@ Logo, colors and typography for referencing Hash Chain.
 
 </div>
 
-Hash Chain is a pre-launch privacy chain. This kit is for press, integrators, community members and anyone who needs to show the Hash Chain name or logo correctly. The protocol itself is described in the [protocol spec](https://github.com/HashChainL0/protocol-spec).
+Hash Chain is the privacy Layer 0, currently pre-launch: its own network where accounts, payments, swaps, assets and apps are private by default. Website: https://hashchain.network. This kit is for press, integrators, community members and anyone who needs to show the Hash Chain name or logo correctly. The protocol itself is described in the [protocol spec](https://github.com/HashChainL0/protocol-spec).
 
 ## Logo
 
