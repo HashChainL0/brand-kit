@@ -103,6 +103,10 @@ a {
 
 The fonts are not bundled in the kit. Load them from a font library, or the fallbacks apply.
 
+## Descriptions
+
+Approved one-line, one-sentence and paragraph descriptions, plus the status line to use with them, are in [docs/BOILERPLATE.md](docs/BOILERPLATE.md).
+
 ## Name
 
 - Write **Hash Chain**: two words, capital H and C.
@@ -119,6 +123,7 @@ brand-kit/
   colors.json
   tokens.css
   docs/
+    BOILERPLATE.md
     COLOR-PAIRINGS.md
     LOGO-SIZES.md
   logo/
