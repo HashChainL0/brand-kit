@@ -54,7 +54,7 @@ The mark is a white, stylized "#" on a dark rounded square. The dark square is p
 | Ink | `#11131a` | Primary text on light, page background on dark |
 | Surface | `#f4f5f7` | Light page and card background |
 
-Machine-readable tokens are in [`colors.json`](colors.json).
+Machine-readable tokens are in [`colors.json`](colors.json) and [`tokens.css`](tokens.css).
 
 ## Typography
 
@@ -64,6 +64,42 @@ Machine-readable tokens are in [`colors.json`](colors.json).
 | Labels | JetBrains Mono | Small uppercase labels, code, numbers in tables |
 
 Both fonts are open source and available from common font libraries. Use a system sans-serif as the fallback.
+
+## Design tokens
+
+[`colors.json`](colors.json) holds the palette, fonts and logo rules as JSON. [`tokens.css`](tokens.css) holds the same values as CSS custom properties, prefixed `--hc-`. Keep the two files in sync.
+
+| Token | Value |
+| --- | --- |
+| `--hc-logo-dark` | `#2c2c2d` |
+| `--hc-accent` | `#ff6a13` |
+| `--hc-accent-on-light` | `#c2410c` |
+| `--hc-ink` | `#11131a` |
+| `--hc-surface` | `#f4f5f7` |
+| `--hc-font-display` | Bricolage Grotesque, then Inter, system-ui, sans-serif |
+| `--hc-font-mono` | JetBrains Mono, then ui-monospace, monospace |
+| `--hc-logo-min-width` | `24px` |
+
+```css
+@import url("tokens.css");
+
+body {
+  background: var(--hc-surface);
+  color: var(--hc-ink);
+  font-family: var(--hc-font-display);
+}
+
+a {
+  color: var(--hc-accent-on-light); /* on dark backgrounds use --hc-accent */
+}
+
+.label {
+  font-family: var(--hc-font-mono);
+  text-transform: uppercase;
+}
+```
+
+The fonts are not bundled in the kit. Load them from a font library, or the fallbacks apply.
 
 ## Name
 
@@ -79,6 +115,7 @@ brand-kit/
   README.md
   LICENSE.md
   colors.json
+  tokens.css
   logo/
     logo-32.png
     logo-64.png
