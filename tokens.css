@@ -1,0 +1,21 @@
+/*
+ * Hash Chain design tokens.
+ * Same values as colors.json. Colors and fonts are the ones defined in this kit.
+ * Fonts are not bundled. Load Bricolage Grotesque and JetBrains Mono yourself,
+ * or the fallbacks apply.
+ */
+:root {
+  /* Colors */
+  --hc-logo-dark: #2c2c2d;        /* Logo square, dark panels */
+  --hc-accent: #ff6a13;           /* Highlights, links on dark, large display accents */
+  --hc-accent-on-light: #c2410c;  /* Accent text and links on light backgrounds */
+  --hc-ink: #11131a;              /* Primary text on light, page background on dark */
+  --hc-surface: #f4f5f7;          /* Light page and card background */
+
+  /* Typography */
+  --hc-font-display: "Bricolage Grotesque", Inter, system-ui, sans-serif;
+  --hc-font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  /* Logo */
+  --hc-logo-min-width: 24px;
+}
