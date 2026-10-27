@@ -35,6 +35,8 @@ The mark is a white, stylized "#" on a dark rounded square. The dark square is p
 - Place it on plain light or dark backgrounds.
 - Use the original files from this kit.
 
+Pixel values for clear space and a guide to picking a file by size are in [docs/LOGO-SIZES.md](docs/LOGO-SIZES.md).
+
 ### Do not
 
 - Do not recolor the mark or the square.
@@ -116,6 +118,8 @@ brand-kit/
   LICENSE.md
   colors.json
   tokens.css
+  docs/
+    LOGO-SIZES.md
   logo/
     logo-32.png
     logo-64.png
