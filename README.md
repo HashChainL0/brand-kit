@@ -56,7 +56,7 @@ Pixel values for clear space and a guide to picking a file by size are in [docs/
 | Ink | `#11131a` | Primary text on light, page background on dark |
 | Surface | `#f4f5f7` | Light page and card background |
 
-Machine-readable tokens are in [`colors.json`](colors.json) and [`tokens.css`](tokens.css).
+Machine-readable tokens are in [`colors.json`](colors.json) and [`tokens.css`](tokens.css). Contrast ratios and which colors to pair for text are in [docs/COLOR-PAIRINGS.md](docs/COLOR-PAIRINGS.md).
 
 ## Typography
 
@@ -119,6 +119,7 @@ brand-kit/
   colors.json
   tokens.css
   docs/
+    COLOR-PAIRINGS.md
     LOGO-SIZES.md
   logo/
     logo-32.png
