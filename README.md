@@ -67,6 +67,8 @@ Machine-readable tokens are in [`colors.json`](colors.json) and [`tokens.css`](t
 
 Both fonts are open source and available from common font libraries. Use a system sans-serif as the fallback.
 
+Casing, fallbacks and do and do not rules for type are in [docs/TYPOGRAPHY.md](docs/TYPOGRAPHY.md).
+
 ## Design tokens
 
 [`colors.json`](colors.json) holds the palette, fonts and logo rules as JSON. [`tokens.css`](tokens.css) holds the same values as CSS custom properties, prefixed `--hc-`. Keep the two files in sync.
@@ -126,6 +128,7 @@ brand-kit/
     BOILERPLATE.md
     COLOR-PAIRINGS.md
     LOGO-SIZES.md
+    TYPOGRAPHY.md
   logo/
     logo-32.png
     logo-64.png
