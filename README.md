@@ -71,7 +71,7 @@ Casing, fallbacks and do and do not rules for type are in [docs/TYPOGRAPHY.md](d
 
 ## Design tokens
 
-[`colors.json`](colors.json) holds the palette, fonts and logo rules as JSON. [`tokens.css`](tokens.css) holds the same values as CSS custom properties, prefixed `--hc-`. Keep the two files in sync.
+[`colors.json`](colors.json) holds the palette, fonts and logo rules as JSON. [`tokens.css`](tokens.css) holds the same values as CSS custom properties, prefixed `--hc-`. Keep the two files in sync. Run `python3 scripts/check-tokens.py` after editing either one. It lists any value that differs.
 
 | Token | Value |
 | --- | --- |
@@ -124,6 +124,8 @@ brand-kit/
   LICENSE.md
   colors.json
   tokens.css
+  scripts/
+    check-tokens.py
   docs/
     BOILERPLATE.md
     COLOR-PAIRINGS.md
