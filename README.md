@@ -46,6 +46,15 @@ Pixel values for clear space and a guide to picking a file by size are in [docs/
 - Do not crop it or place other marks inside the clear space.
 - Do not use it in a way that suggests endorsement, partnership or affiliation that does not exist.
 
+### Before you publish
+
+- [ ] The logo includes its dark square and is at least 24px wide.
+- [ ] Clear space is at least a quarter of the logo width on every side.
+- [ ] The file is an original from this kit, scaled proportionally.
+- [ ] The name is written Hash Chain.
+- [ ] Nothing suggests endorsement, partnership or affiliation that does not exist.
+- [ ] Any description of the project says it is pre-launch and at the spec stage. Approved wording is in [docs/BOILERPLATE.md](docs/BOILERPLATE.md).
+
 ## Colors
 
 | Name | Hex | Usage |
